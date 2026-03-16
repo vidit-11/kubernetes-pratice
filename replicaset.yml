@@ -18,3 +18,8 @@ spec:
       containers:
         - image: nginx
           name: nginx
+
+
+# some options to increase or decrease replicasets
+# kubectl edit rs/nginx-rs    ---> edit config directly 
+# kubectl scale --replicas=10 rs/nginx-rs  ---> spin ups 10 replicas on command
