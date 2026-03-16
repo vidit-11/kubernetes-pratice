@@ -18,3 +18,6 @@ spec:
       containers:
         - image: nginx
           name: nginx
+
+
+# kubectl set image deploy/nginx-deploy nginx=nginx1.9.1
