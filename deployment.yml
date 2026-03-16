@@ -21,3 +21,4 @@ spec:
 
 
 # kubectl set image deploy/nginx-deploy nginx=nginx1.9.1
+# dry run=> kubectl create deploy/nginx-new-deploy --image=nginx --dry-run=client -o yml > deploy.yml
